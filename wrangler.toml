@@ -19,3 +19,7 @@ fallthrough = false
 [[migrations]]
 tag = "v1" # Should be unique for each entry
 new_classes = ["Room"]
+
+analytics_engine_datasets = [
+    { binding = "TEST", dataset = "test" }
+]
